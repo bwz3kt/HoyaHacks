@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table class="table table-bordered table-hover">
+    <thead class="thead-inverse">
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for element in top_list %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ element }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<a href="/logout" class="btn"> Logout </a>
+<a href="/home" class="btn"> Home </a>
+{% endblock %}
