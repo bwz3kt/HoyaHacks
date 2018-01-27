@@ -6,13 +6,15 @@
     <tr>
         <th>#</th>
         <th>Title</th>
+        <th>Subjectivity</th>
     </tr>
     </thead>
     <tbody>
     {% for element in top_list %}
     <tr>
         <th scope="row">{{ forloop.counter }}</th>
-        <td>{{ element }}</td>
+        <td>{{ element.0 }}</td>
+        <td>{{ element.1 }}</td>
     </tr>
     {% endfor %}
     </tbody>
