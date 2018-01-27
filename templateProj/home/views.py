@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, logout
 import json, requests
 import time
+from textblob import TextBlob
 
 def check_login(request):
     if request.user.is_authenticated:
@@ -38,7 +39,7 @@ def home(request):
             sub = form.cleaned_data.get('subreddit')
             # request.sessions['input'] = sub
             # return redirect('/results')
-            return render(request, 'results/top.html', {'top_list': findTop(sub)})
+            return render(request, 'results/top.html', {'top_list': (findTop(sub))})
     else:
         form = SearchForm()
     return render(request, 'home/home.html', {'form': form})
@@ -65,8 +66,11 @@ def findTop(subreddit):
 
     return_list = []
     for post in r.json()['data']['children']:
+        post2 = TextBlob(post['data']['title'])
         return_list.append(post['data']['title'])
+        return_list.append(post2.sentiment)
     return return_list
+
 
 def convertDayEpoch(date): #returns tuple of epoch time with start and end of the day
     #date in format day.month.year
