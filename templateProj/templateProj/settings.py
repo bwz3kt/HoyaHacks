@@ -123,3 +123,9 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'home'
 
 # CRISPY_TEMPLATE_PACK = 'uni_form'
+# Add these new lines
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
