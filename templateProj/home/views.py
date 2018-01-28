@@ -8,6 +8,9 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, logout
 import json, requests
 import time
+import praw
+import datetime
+import random
 from textblob import TextBlob
 
 def check_login(request):
@@ -29,7 +32,8 @@ def signup(request):
     else:
         form = SignUpForm()
     return render(request, 'registration/signup.html', {'form': form})
-
+def getData():
+    return []
 @login_required(login_url='/login')
 def home(request):
     if request.method == 'POST':
@@ -39,6 +43,10 @@ def home(request):
             sub = form.cleaned_data.get('subreddit')
             # request.sessions['input'] = sub
             # return redirect('/results')
+            request.session['top']= findTop(sub)
+            handle1 = open('file.csv', "w+")
+            handle1.write( str(random.random()*2 - 1) + "," + str(random.random()) )
+            handle1.close()
             return render(request, 'results/top.html', {'top_list': findTop(sub)})
     else:
         form = SearchForm()
@@ -56,13 +64,16 @@ def findTop(subreddit):
     #     headers={'user-agent': 'Mozilla/5.0'}
     # )
 
-    r = requests.get(
-        'http://www.reddit.com/r/'+subreddit+'/top.json?sort=top&t=month',
-        headers={'user-agent': 'Mozilla/5.0'}
-    )
+    # reddit = praw.Reddit(client_id="YGvFNM2_0jk-QA", client_secret="SNivnpSLutE4Yq_nmbaqHqm2i30",
+    #                      user_agent="hoya hackerinos!")
 
     # view structure of an individual post
     # print(json.dumps(r.json()['data']['children'][0]))
+
+    r = requests.get(
+        'http://www.reddit.com/r/' + subreddit + '/top.json?sort=top&t=month',
+        headers={'user-agent': 'Mozilla/5.0'}
+    )
 
     return_list = []
     for post in r.json()['data']['children']:
