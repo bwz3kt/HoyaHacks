@@ -46,7 +46,6 @@ def home(request):
 # else:
     #     form = SearchForm()
     # return render(request, 'home/home.html', {'form': form})
-
 # @login_required(login_url='/login')
 # def results(request):
 #     print(request.sessions.get('input'))
@@ -70,8 +69,7 @@ def findTop(subreddit):
     return_list = []
     for post in r.json()['data']['children']:
         post2 = TextBlob(post['data']['title'])
-        return_list.append(post['data']['title'])
-        return_list.append(post2.sentiment)
+        return_list.append((post['data']['title'], post2.sentiment))
     return return_list
 
 
