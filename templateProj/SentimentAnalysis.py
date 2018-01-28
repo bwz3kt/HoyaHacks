@@ -32,7 +32,7 @@ def main(subreddit):
         tuple = (polarity_score, time, post.url)
         list.append(tuple)
         filename = open("/static/"+subreddit + ".csv","w")
-        filename.write('date,polarity,url\n')
+        filename.write('polarity,date,url\n')
         for tuple in list:
             filename.write(str(tuple[0])+","+str(tuple[1])+ "," +str(tuple[2])+'\n')
         filename.close()
