@@ -11,10 +11,10 @@ import time
 from textblob import TextBlob
 
 def check_login(request):
-    if request.user.is_authenticated:
+    # if request.user.is_authenticated:
         return redirect('/home')
-    else:
-        return redirect('/login')
+    # else:
+    #     return redirect('/login')
 
 def signup(request):
     if request.method == 'POST':
@@ -32,17 +32,20 @@ def signup(request):
 
 @login_required(login_url='/login')
 def home(request):
-    if request.method == 'POST':
-        form = SearchForm(request.POST)
-        if form.is_valid():
+    # if request.method == 'POST':
+    #     form = SearchForm(request.POST)
+    #     if form.is_valid():
             #form.save()
-            sub = form.cleaned_data.get('subreddit')
+            # sub = form.cleaned_data.get('subreddit')
             # request.sessions['input'] = sub
             # return redirect('/results')
-            return render(request, 'results/top.html', {'top_list': (findTop(sub))})
-    else:
-        form = SearchForm()
-    return render(request, 'home/home.html', {'form': form})
+            # return render(request, 'results/top.html', {'top_list': (findTop(sub))})
+            return render(request, 'results/top.html')
+
+
+# else:
+    #     form = SearchForm()
+    # return render(request, 'home/home.html', {'form': form})
 
 # @login_required(login_url='/login')
 # def results(request):
