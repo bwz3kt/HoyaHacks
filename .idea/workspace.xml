@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea150e12-75f5-44a3-9e8e-0882c8f0acf2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/GruntFile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/ISSUE_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/TimeSeries.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/boxPlot.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/boxPlotCustomModel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/bullet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/bulletChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/candlestick.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/candlestickChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/cumulativeLineChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/discreteBarChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/distroPlotChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/documentation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/donutChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/forceDirected.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/furiousLegend.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/historicalBar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/historicalBarChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/images/background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/images/body-background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/images/bullet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/images/hr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/images/octocat-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/legend.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/line.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/lineChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/lineChartLogScale.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/lineChartSVGResize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/linePlusBarChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/lineWithFocusChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/lineWithFocusChart_x2AxisLabel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/monitoringChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/multiBarChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/multiBarChart2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/multiBarHorizontalChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/multiChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/ohlc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/ohlcChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/parallelCoordinates.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/parallelCoordinatesChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/pie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/pieChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/sankeyChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/scatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/scatterChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/scatterPlusLineChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/site.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/sparkline.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/sparklinePlus.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/stackedArea.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/stackedAreaChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/stackedAreaWithFocusChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/stylesheets/pygment_trac.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/stylesheets/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/sunburst.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/examples/tooltip.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/meteor/export.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/package.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/axis.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/bars.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/boxplot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/bullet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/candlestick.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/forceDirectedGraph.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/furiousLegend.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/lineplusbar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/lines.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/ohlc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/parallelcoordinates.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/pie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/scatter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/sparkline.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/stackedarea.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/css/tooltip.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/dom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/interactiveLayer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/axis.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/boxPlot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/boxPlotChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/bullet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/bulletChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/candlestickBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/cumulativeLineChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/discreteBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/discreteBarChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/distribution.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/distroPlot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/distroPlotChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/focus.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/forceDirectedGraph.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/furiousLegend.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/historicalBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/historicalBarChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/legend.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/line.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/lineChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/linePlusBarChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/multiBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/multiBarChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/multiBarHorizontal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/multiBarHorizontalChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/multiChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/ohlcBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/parallelCoordinates.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/parallelCoordinatesChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/pie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/pieChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sankey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sankeyChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/scatter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/scatterChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sparkline.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sparklinePlus.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/stackedArea.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/stackedAreaChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sunburst.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/models/sunburstChart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/src/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/ScatterChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/bootstrapModalTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/boxPlotTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/cumulativeLineChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/lineChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/linePlusBarChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/linePlusBarWithFocusChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/lineWithFisheyeChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/lineWithFocusChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/lineWithFocusChartMissingData.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/axis.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/boxplot.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/bullet.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/core.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/cumulative-line.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/discretebar.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/distrochart.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/historical-bar.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/legend.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/line.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/multibar-horizontal.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/multibar.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/pie.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/sankey.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/scatter.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/sparkline.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/stacked.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/sunburst.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/test-utils.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/mocha/utils.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/multiBarChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/multiBarHorizontalChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/node/GruntFile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/node/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/node/nodeTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/node/nodeTest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/node/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/pieChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/polylinearTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/realTimeChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/scatterPlusLineChart.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/scrollTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/scrollTest2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/stackedAreaChartMissingData.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/stackedAreaChartTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/stream_layers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/testScript.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/teststyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/tinytest/nv-is-defined-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph_nvd3_lib/test/translateTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templateProj/db.sqlite3" afterPath="$PROJECT_DIR$/templateProj/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/templateProj/templates/base.html" afterPath="$PROJECT_DIR$/templateProj/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/templateProj/templates/results/top.html" afterPath="$PROJECT_DIR$/templateProj/templates/results/top.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Gunners.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templateProj/static/Gunners.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templateProj/templates/results/top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templateProj/home/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentimentAnalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templateProj/SentimentAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>open</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templateProj/templates/results/top.html" />
+        <option value="$PROJECT_DIR$/templateProj/templateProj/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HoyaHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HoyaHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="templateProj" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea150e12-75f5-44a3-9e8e-0882c8f0acf2" name="Default" comment="" />
+      <created>1517103988878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517103988878</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templateProj/static/Gunners.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templates/results/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/SentimentAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templates/results/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="102" column="4" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templateProj/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3275">
+          <caret line="131" column="46" lean-forward="false" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/static/bar-data.csv" />
+    <entry file="file://$PROJECT_DIR$/templateProj/file.txt" />
+    <entry file="file://$PROJECT_DIR$/templateProj/file.csv" />
+    <entry file="file://$PROJECT_DIR$/templateProj/static/bar-data.csv" />
+    <entry file="file://$PROJECT_DIR$/templateProj/templateProj/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/.idea/templateProj.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/static/Gunners.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/SentimentAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateProj/templates/results/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
