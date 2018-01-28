@@ -104,3 +104,6 @@ ENV/
 **.iml
 *.sqlite3
 **.pyc
+*.pyc
+*.pyc
+templateProj/home/__pycache__/forms.cpython-36.pyc
